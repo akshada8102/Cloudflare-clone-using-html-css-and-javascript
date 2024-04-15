@@ -1,0 +1,19 @@
+#header {
+    height: 9em;
+    display: grid;
+    grid-template-rows: auto auto;
+    padding: 1em 3em;
+    padding-bottom: 0;
+
+}
+
+#header-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.active-button {
+    border-color: #f63;
+    background-color: rgb(253, 246, 243);
+}
